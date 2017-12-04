@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
  * Created by Joselito Narte Jr. on 04/12/2017.
  */
 
-public class BaseSearchActivity extends AppCompatActivity {
+public abstract class BaseSearchActivity extends AppCompatActivity {
 
     protected CheeseSearchEngine cheeseSearchEngine;
     protected CheeseAdapter cheeseAdapter;
